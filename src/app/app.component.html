@@ -1,6 +1,11 @@
 <h1>{{ title }}</h1>
+<p>This is the welcome page. Select a page</p>
+<nav>
+  <a routerLink="/dashboard">Dashboard</a>
+  <a routerLink="/heroes">Heroes</a>
+</nav>
 
-<app-heroes></app-heroes>
+<router-outlet></router-outlet>
 
 <hr/>
 <app-messages></app-messages>
