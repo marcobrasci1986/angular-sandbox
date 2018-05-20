@@ -18,6 +18,8 @@ import {HeroSearchComponent} from './hero-search/hero-search.component';
 import {CounterComponent} from './counter/counter.component';
 import {StoreModule} from '@ngrx/store';
 import {counterReducer} from './counter/reducer/counter.reducer';
+import { PersonComponent } from './person/person.component';
+import { CardComponent } from './person/card/card.component';
 
 
 @NgModule({
@@ -28,7 +30,9 @@ import {counterReducer} from './counter/reducer/counter.reducer';
     MessagesComponent,
     DashboardComponent,
     HeroSearchComponent,
-    CounterComponent
+    CounterComponent,
+    PersonComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

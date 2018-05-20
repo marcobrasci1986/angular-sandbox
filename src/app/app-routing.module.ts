@@ -4,6 +4,7 @@ import {HeroesComponent} from './heroes/heroes.component';
 import {DashboardComponent} from './dashboard/dashboard.component';
 import {HeroDetailComponent} from './hero-detail/hero-detail.component';
 import {CounterComponent} from './counter/counter.component';
+import {PersonComponent} from './person/person.component';
 
 
 const routes: Routes = [
@@ -11,7 +12,8 @@ const routes: Routes = [
   {path: 'heroes', component: HeroesComponent},
   {path: 'dashboard', component: DashboardComponent},
   {path: 'detail/:id', component: HeroDetailComponent},
-  {path: 'counter', component: CounterComponent}
+  {path: 'counter', component: CounterComponent},
+  {path: 'person', component: PersonComponent}
 ];
 
 @NgModule({
